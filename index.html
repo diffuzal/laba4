@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="/style.css">
+
+</head>
+
+<body>
+
+    <header>
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <nav class="nav">
+                        <ul class="menu">
+                            <li><a href="index.html">Главная </a></li>
+                            <li><a href="products.html">Ассортимент</a></li>
+                            <li><a href="basket.html">Корзина</a></li>
+                            <li><a href="create-order.html">Оформление заказа</a></li>
+                            <li><a href="will-be.html">Скоро будет</a></li>
+                            <li><a href="contacts.html">Контакты</a></li>
+                            <li><a href="about-us.html">Наша команда</a></li>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+
+
+
+    <section class="section_slider">
+        <div class="swiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <img src="/img/1672734608_pro-dachnikov-com-p-sushi-na-dom-foto-35.jpg" class="img_slider" alt="">
+                </div>
+                <div class="swiper-slide">
+                    <img src="/img/2.-gotovye-sushi.jpg" class="img_slider" alt="">
+                </div>
+                <div class="swiper-slide">
+                    <img src="/img/123.jpeg" class="img_slider" alt="">
+                </div>
+                <div class="swiper-slide">
+                    <img src="img/kartinki-sushi-18.jpeg" class="img_slider" alt="">
+                </div>
+                <div class="swiper-slide">
+                    <img src="img/Mezhdunarodnyj-den-sushi-18-iyunya.jpg" class="img_slider" alt="">
+                </div>
+            </div>
+            <div class="swiper-pagination"></div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-scrollbar"></div>
+        </div>
+    </section>
+
+
+
+    <section class="section_fedback mt-5 mb-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 mb-3">
+                    <h2>Отзывы</h2>
+                </div>
+            </div>
+            <div class="swiper-container">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="slide-content">
+                            <img src="img/user1.png" alt="User 1" class="img_slider">
+                            <p class="user-feedback">Очень хороший барбершоп</p>
+                        </div>
+                    </div>
+
+    </section>
+
+    <section class="section_list_products mar_castom">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h2 class="mb-3">Популярные услуги</h2>
+                    <h2 class="mb-3">Скидки 50 % на услуги закончатся через <span id="counter_sale"></span></h2>
+                </div>
+            </div>
+            <div class="row">
+                <!-- Добавленный код для нового продукта -->
+                <div class="col-12 col-lg-3">
+
+                    <div class="card">
+                        <img class="card-img-top" src="/img/6.jpg" alt="Card image cap">
+                        <div class="card-body">
+                            <h4 class="card-title">Стрижка №1</h4>
+                            <p class="card-text">
+                                Хорошая стрижка
+
+                            </p>
+                            <p class="card-text">Цена: $10.00</p>
+                            <p class="card-text">Со скидкой: $5.00</p>
+                            <a href="/product.html" class="btn btn-primary">Заказать</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-3">
+                    <div class="card">
+                        <img class="card-img-top" src="/img/7.jpg" alt="Card image cap">
+                        <div class="card-body">
+                            <h4 class="card-title">Стрижка №2</h4>
+                            <p class="card-text">
+                                Топ стрижка
+                            </p>
+                            <p class="card-text">Цена: $15.00</p>
+                            <p class="card-text">Со скидкой: $7.50</p>
+                            <a href="/product.html" class="btn btn-primary">Заказать</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-3">
+                    <div class="card">
+                        <img class="card-img-top" src="/img/8.jpg" alt="Card image cap">
+                        <div class="card-body">
+                            <h4 class="card-title">Стрижка №3</h4>
+                            <p class="card-text">
+                                Хорошая стрижка
+                            </p>
+                            <p class="card-text">Цена: $10.00</p>
+                            <p class="card-text">Со скидкой: $5.00</p>
+                            <a href="/product.html" class="btn btn-primary">Заказать</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-3">
+                    <div class="card">
+                        <img class="card-img-top" src="/img/1.jpeg" alt="Card image cap">
+                        <div class="card-body">
+                            <h4 class="card-title">Стрижка №4</h4>
+                            <p class="card-text">
+                                Короткая стрижка
+                            </p>
+                            <p class="card-text">Цена: $14.00</p>
+                            <p class="card-text">Со скидкой: $7.00</p>
+                            <a href="/product.html" class="btn btn-primary">Заказать</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-3">
+                    <div class="card">
+                        <img class="card-img-top" src="/img/2a-1.jpg" alt="Card image cap">
+                        <div class="card-body">
+                            <h4 class="card-title">Стрижка №5</h4>
+                            <p class="card-text">
+                                Длинная стрижка
+                            </p>
+                            <p class="card-text">Цена: $18.00</p>
+                            <p class="card-text">Со скидкой: $9.00</p>
+                            <a href="/product.html" class="btn btn-primary">Заказать</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-3">
+                    <div class="card">
+                        <img class="card-img-top" src="/img/2a-1.jpg" alt="Card image cap">
+                        <div class="card-body">
+                            <h4 class="card-title">Стрижка №6</h4>
+                            <p class="card-text">
+                                Эксклюзивная стрижка
+                            </p>
+                            <p class="card-text">Цена: $12.00</p>
+                            <p class="card-text">Со скидкой: $6.00</p>
+                            <a href="/product.html" class="btn btn-primary">Заказать</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-3">
+                    <div class="card">
+                        <img class="card-img-top" src="/img/2a-1.jpg" alt="Card image cap">
+                        <div class="card-body">
+                            <h4 class="card-title">Стрижка №7</h4>
+                            <p class="card-text">
+                                Полубокс
+                            </p>
+                            <p class="card-text">Цена: $14.00</p>
+                            <p class="card-text">Со скидкой: $7.00</p>
+                            <a href="/product.html" class="btn btn-primary">Заказать</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-3">
+                    <div class="card">
+                        <img class="card-img-top" src="/img/2a-1.jpg" alt="Card image cap">
+                        <div class="card-body">
+                            <h4 class="card-title">Борода</h4>
+                            <p class="card-text">
+                                Подстричь бороду
+                            </p>
+                            <p class="card-text">Цена: $20.00</p>
+                            <p class="card-text">Со скидкой: $10.00</p>
+                            <a href="/product.html" class="btn btn-primary">Заказать</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="section_sale mar_castom">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+
+                </div>
+            </div>
+            <div class="row">
+                <div class="row">
+                    <div class="col-12 col-lg-3">
+                        <div class="card">
+                            <img class="card-img-top" src="/img/9.jpg" alt="Card image cap">
+                            <div class="card-body">
+                                <h4 class="card-title">Усы</h4>
+                                <p class="card-text">
+                                   Постричь усы
+                                </p>
+                                <p class="card-text">Цена: $10.00</p>
+                                <p class="card-text">Со скидкой: $5.00</p>
+                                <a href="/product.html" class="btn btn-primary">Заказать</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-3">
+                        <div class="card">
+                            <img class="card-img-top" src="img/11.jpg" alt="Card image cap">
+                            <div class="card-body">
+                                <h4 class="card-title">Стрижка №8</h4>
+                                <p class="card-text">
+                                    Рок-стиль
+                                </p>
+                                <p class="card-text">Цена: $14.20</p>
+                                <p class="card-text">Со скидкой: $7.10</p>
+                                <a href="/product.html" class="btn btn-primary">Заказать</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-3">
+                        <div class="card">
+                            <img class="card-img-top" src="img/11.jpg" alt="Card image cap">
+                            <div class="card-body">
+                                <h4 class="card-title">Стрижка №8</h4>
+                                <p class="card-text">
+                                    Топ стрижка
+                                </p>
+                                <p class="card-text">Цена: $12.30</p>
+                                <p class="card-text">Со скидкой: $6.15</p>
+                                <a href="/product.html" class="btn btn-primary">Заказать</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-3">
+                        <div class="card">
+                            <img class="card-img-top" src="/img/12.jpeg" alt="Card image cap">
+                            <div class="card-body">
+                                <h4 class="card-title">Стрижка №9</h4>
+                                <p class="card-text">
+                                    Вип стрижка
+                                </p>
+                                <p class="card-text">Цена: $10.00</p>
+                                <p class="card-text">Со скидкой: $5.00</p>
+                                <a href="/product.html" class="btn btn-primary">Заказать</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+    <section class="section_form_fedback">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 d-flex justify-content-center">
+                    <h2 class="mb-3">Обратная связь</h2>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-12 col-lg-4">
+                    <form action="">
+                        <input type="email" class="form-control mb-2" placeholder="E-mail">
+                        <input type="text" class="form-control mb-2" placeholder="Ваше обращение">
+                        <button type="submit" class="btn btn-success">Отправить</button>
+
+                    </form>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-12">
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+    <div class="modal fade " id="exampleModal" tabindex="-1" aria-labelledby="exampleModal" aria-modal="true"
+        role="dialog">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    <div class="description_modal">Вкусные роллы. Очень понравились запеченные. Все роллы большие. Вок очень вкусный. Персонал вежливый.
+                        Ожидание не долгое, даже если пробки, карьеры стараются доставить даже немного раньше, с учётом того, что заказываем вечером на Суворовский.</div>
+                    <div class="line"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+
+<script>
+
+    const swiper = new Swiper('.swiper', {
+        // Optional parameters
+        direction: 'horizontal',
+        loop: true,
+
+        // If we need pagination
+        pagination: {
+            el: '.swiper-pagination',
+        },
+
+        // Navigation arrows
+        navigation: {
+            nextEl: '.swiper-button-next',
+            prevEl: '.swiper-button-prev',
+        },
+
+        // And if we need scrollbar
+        scrollbar: {
+            el: '.swiper-scrollbar',
+        },
+    });
+
+
+    function saleCounter(params) {
+        let countDownDate = new Date("2023-12-31 00:00:00").getTime();
+
+        let x = setInterval(function () {
+            let now = new Date().getTime();
+            let distance = countDownDate - now;
+            let days = Math.floor(distance / (1000 * 60 * 60 * 24));
+            let hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+            let minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+            let seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+            document.getElementById(params).innerHTML = days + "д " + hours + "ч "
+                + minutes + "м " + seconds + "с ";
+
+        }, 1000);
+    }
+    saleCounter('counter_sale')
+
+</script>
+
+</html>

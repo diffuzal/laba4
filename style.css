@@ -1,0 +1,34 @@
+/* Center images in swiper slider */
+.swiper-slide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.img_slider {
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+}
+.nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.menu {
+    display: flex;
+}
+
+.menu li {
+    margin-right: 60px; /* Adjust the spacing between menu items */
+}
+
+.menu a {
+    text-decoration: none;
+    color: black; /* Change the color as needed */
+}
